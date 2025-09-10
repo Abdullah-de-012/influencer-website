@@ -102,6 +102,58 @@ a {
     background-color: #aaaaaa10;
     padding: 40px 0px;
 }
+/* Collection Styles */
+.collection{
+    margin: 100px 200px;
+    
+}
+.collection-headline{
+    font-size: 2rem;
+    text-align: center;
+
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+
+}
+.card{
+    box-shadow: #7d6f6f3b 0px 0px 40px 0;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 23px;
+    border-radius: 9px;
+}
+.card img{
+    
+}
+.card h3{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.card h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1px auto;
+}
+.card p{
+    color: #787885;
+    margin: 1px auto;
+}
+.star img{
+    width: 16px;
+}
+.star{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.star p{
+    margin: 0 0;
+    margin-left: 10px;
+}
 
 /* Responsive for mobile-device */
 @media screen and (max-width:768px) {
