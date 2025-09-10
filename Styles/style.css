@@ -237,7 +237,6 @@ footer p{
     .card-container{
         display: flex;
         flex-direction: column;
-        /* margin: 10px 0px; */
     }
     .collection{
         margin: 15px;
@@ -246,6 +245,11 @@ footer p{
         position: absolute;
         right: 15px;
 
+    }
+    .featured-section{
+        flex-direction: column;
+        margin: 100px 2px;
+        gap: 10px;
     }
 }
 /* Responsive for Tablet */
@@ -295,5 +299,9 @@ footer p{
         position: absolute;
         left: 0px;
         
+    }
+     .featured-section{
+        flex-direction: column;
+        gap: 10px;
     }
 }
