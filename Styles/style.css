@@ -126,7 +126,7 @@ a {
     border-radius: 9px;
 }
 .card img{
-    
+
 }
 .card h3{
     font-size: 2rem;
@@ -157,7 +157,7 @@ a {
 
 /* Responsive for mobile-device */
 @media screen and (max-width:768px) {
-    .navbar {
+    .navbar{
         flex-direction: column;
     }
     header{
@@ -185,6 +185,14 @@ a {
         flex-wrap: wrap;
         width: 100%;
         gap: 20px;
+    }
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        /* margin: 10px 0px; */
+    }
+    .collection{
+        margin: 15px;
     }
 }
 /* Responsive for Tablet */
@@ -219,5 +227,11 @@ a {
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+    .card-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .collection{
+        margin: 15px;
     }
 }
