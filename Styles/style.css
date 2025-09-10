@@ -113,11 +113,13 @@ a {
     }
     .banner-container {
         flex-direction: column-reverse;
+        align-items: center;
         text-align: center;
     }
 
     .banner-img {
-        width: 100%;
+        width: 70%;
+
     }
     .banner{
         width: 100%;
@@ -131,5 +133,39 @@ a {
         flex-wrap: wrap;
         width: 100%;
         gap: 20px;
+    }
+}
+/* Responsive for Tablet */
+@media screen and (min-width:768px)and (max-width:992px) {
+    header{
+        margin: 5px 0px;
+    }
+    .navbar{
+        flex-direction: column;
+        margin: 10px auto;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 100%;
+        align-items: center;
+        margin: 0;
+    }
+    .banner-img{
+        width: 40%;
+    }
+    .banner-container h3{
+        font-size: 2.5rem;
+    }
+    .partner-company{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        width: 60%;
+    }
+    .partner-company img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
